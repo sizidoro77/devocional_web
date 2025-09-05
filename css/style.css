@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+:root {
+    --white: #fff; 
+    --dark: #1e1c2e; 
+}
+
+header {
+    background-color: var(--white);
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.0rem 5rem;
+}
+
+.logo {
+    font-size: 18px;   
+    display: flex;
+
+}
+
+.logo .letra-o, .mais{
+    color: goldenrod;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+
+.nav-item a {
+    color: var(--dark);
+    text-decoration: none;
+    transition: background-color 0.5s;
+
+}
+
+.nav-item a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
+.login-button button {
+    border: none;
+    background-color: goldenrod;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.login-button button a {
+    font-size: 15px;   
+    color: var(--white);
+}
+
+
+footer {
+      text-align: center;
+      padding: 20px;
+      background: goldenrod;
+      color: white;
+      margin-top: 550px;
+}
+
+footer .desenvolvido {
+    font-family: "Poppins", sans-serif;
+    display: flex;             
+    align-items: center;       
+    justify-content: center;   
+    gap: 15px;                 
+}
+
+footer .desenvolvido a{
+    font-size: 16px;   
+    color: var(--white); 
+    cursor: pointer;
+
+}
+
+footer .desenvolvido a:hover {
+    transition: 0.3s;
+} 
+
+
+footer .desenvolvido i {
+    font-size: 20px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+footer .desenvolvido i:hover {
+    color: var(--white);
+    transition: 0.3s;
+}
